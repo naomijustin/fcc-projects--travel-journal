@@ -6,8 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-container {
+  background-color: #F55A5A;
+  height: 55px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

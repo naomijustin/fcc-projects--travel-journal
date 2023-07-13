@@ -1,7 +1,7 @@
 export default function Nav() {
     return(
-        <div>
-            Test Nav
-        </div>
+        <nav className="nav-container">
+            <div>my travel  journal.</div>
+        </nav>
     );
 }
