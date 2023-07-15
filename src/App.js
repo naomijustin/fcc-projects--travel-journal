@@ -8,7 +8,9 @@ console.log(data);
 function App() {
   const cards = data.map(function(item) {
     return (
-      <Card/>
+      <Card
+        item={item}
+      />
     )
   })
   return (
