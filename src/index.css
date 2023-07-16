@@ -5,6 +5,9 @@ body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #2B283A;
 }
 /* === Nav === */
 .nav-container {
@@ -19,7 +22,10 @@ body {
 .section-card {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
+  margin: 10px 0px;
 }
 .card-image {
   width: 125px;
@@ -29,11 +35,20 @@ body {
   display: flex;
   flex-direction: column;
   width: 326px;
+  text-align: left;
 }
 .card-title-row {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 5px;
+}
+.card-maps-link {
+  color: #918E9B;
+  text-decoration: underline;
+}
+.card-h2-title {
+  margin: 0;
+  font-size: 1.6rem;
 }
 
