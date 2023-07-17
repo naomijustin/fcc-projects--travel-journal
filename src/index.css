@@ -5,7 +5,7 @@ body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 400;
   color: #2B283A;
 }
@@ -13,10 +13,12 @@ body {
 .nav-container {
   background-color: #F55A5A;
   height: 55px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #FFFFFF;
+  gap: 8px;
 }
 /* === Card === */
 .section-card {
@@ -24,8 +26,8 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  margin: 10px 0px;
+  gap: 20px;
+  margin: 30px 0px;
 }
 .card-image {
   width: 125px;
@@ -46,9 +48,10 @@ body {
 .card-maps-link {
   color: #918E9B;
   text-decoration: underline;
+  padding-left: 8px;
 }
 .card-h2-title {
-  margin: 0;
+  margin: 0px 0px 15px 0px;
   font-size: 1.6rem;
 }
 
